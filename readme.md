@@ -1,6 +1,6 @@
 # New Tab Twitter
 
-_Chrome extension that makes the new tab page a minimally-distracting Twitter feed.
+Chrome extension that makes the new tab page a minimally-distracting Twitter feed.
 
 ![Screenshot](screenshots/fortwitter.png)
 
