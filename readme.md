@@ -19,3 +19,5 @@ However this same inconvenience is a feature in that you can maintain seperate f
 Another benefit of the app sourcing from a list is that this extension is not dependant on anything other than twitter.com, there is no server for me to maintain for this to work, so it should stand the test of time better.
 
 Additionally, since this extension takes a twitter feed already rendered by twitter and takes away certain content instead of the opposite process of generating the markup for a Twitter feed based on data from the Twitter API, updates twitter makes should require little or no updating to this extension. Additionally, there is much less potential for bugs with this setup, as Twitter's official client implementation is the least buggy.
+
+![Screenshot](screenshots/fortwitter.png)
