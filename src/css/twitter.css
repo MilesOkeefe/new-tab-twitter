@@ -1,0 +1,88 @@
+.stream{
+	transition:-webkit-filter 0.3s;
+}
+.stream.active{
+	-webkit-filter:none;
+}
+.timeline-header{
+	display: none;
+}
+.customisable-border{
+	border:none !important;
+}
+.stream,.tweet:first-child{
+	border-top-right-radius: 3px;
+	border-top-left-radius: 3px;
+}
+.tweet{
+	border:none;
+	opacity: 0.75;
+	transition:opacity 0.3s;
+}
+.tweet:hover{
+	opacity: 1.0;
+}
+.stream.active .tweet{
+	opacity: 1.0;
+}
+.customisable{
+    color: #62A5B2;
+}
+.tweet .p-author .p-nickname, .tweet .permalink, .tweet .tweet-actions, .tweet .footer{
+	transition:opacity 0.2s;
+}
+.tweet:hover .p-author .p-nickname, .tweet:hover .permalink, .tweet:hover .tweet-actions, .tweet:hover .footer{
+	opacity: 1.0;
+}
+.tweet img, .tweet .media{
+	transition:opacity 0.2s;
+}
+.tweet:hover img, .tweet:hover .media{
+	opacity: 1.0;
+}
+.tweet .e-entry-title{
+	line-height: 20px !important;
+}
+span.verified{
+	display: none;
+}
+.tweet:hover .link{
+	color: #2E98B3;
+}
+.tweet .hashtag{
+	color: #818181;
+}
+.tweet .hashtag b{
+	color: #2E98B3;
+}
+button.load-more{
+	display: block;
+	width:50%;
+	margin:10px auto;
+	margin-top: 20px;
+	border:none;
+	border-radius: 5px;
+	padding:13px 0px;
+	font-size: 14px;
+	background: #D6E9ED;
+	color:#36696F;
+}
+button.load-more:hover, button.load-more:focus {
+	text-decoration: none;
+	color: #36696F;
+	background-color: #D6E9ED;
+}
+.tweet .retweet-credit{
+	position: relative;
+	color:transparent;
+}
+	.tweet:not(:hover) .retweet-credit .ic-rt{
+		opacity: 0.7;
+	}
+	.tweet .retweet-credit .profile{
+		position:absolute;
+		left:18px;
+	}
+.new-tweets-bar button {
+    background-color: rgba(214,233,237,0.87);
+}

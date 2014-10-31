@@ -1,0 +1,63 @@
+<html>
+	<head>
+		<meta name="twitter:widgets:csp" content="on">
+		<style>
+			*{
+				box-sizing:border-box;
+			}
+			body{
+				background-color: #ecf0f1;
+				font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+				margin:0;
+			}
+			#wrapper{
+				position: relative;
+				width:720px;
+				margin:0 auto;
+				margin-top: 180px;
+			}
+				#timeline{
+					width:100%;
+					min-height: 4000px;
+					background-color: #FFF;
+					border-radius:5px;
+					padding:10px;
+				}
+					#timeline-inner{
+						position: relative;
+						opacity:0.0;
+					}
+					#timeline-inner.rendered{
+						opacity:1.0;
+					}
+					#scrollbar-cover{  /* covers scrollbar, for some reason the webkit CSS setting won't remove it on some OSes*/
+						position: absolute;
+						right:-10px;
+						top:0px;
+						height:100%;
+						width:20px;
+						background-color: #FFF;
+					}
+		</style>
+		<script src="js/load-options.js" async></script>
+		<script src="js/jquery.min.js" async></script>
+		<script src="js/newtab.js" async></script>
+		<title>New Tab</title>
+	</head>
+	<body>
+		<div id="wrapper">
+			<div id="timeline">
+				<div id="timeline-inner">
+					<a id="tw-link"
+						class="twitter-timeline"
+						href=""
+						data-list-owner-screen-name=""
+ 						data-list-slug=""
+						data-widget-id="521859215124492288">
+					</a>
+					<div id="scrollbar-cover"></div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

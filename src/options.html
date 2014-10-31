@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta name="twitter:widgets:csp" content="on">
+		<script src="js/jquery.min.js" type="text/javascript"></script>
+		<script src="js/options.js" type="text/javascript"></script>
+		<title>Settings - New Tab Twitter</title>
+		<style>
+			body{
+				background-color: #ecf0f1;
+				font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif, 'Segoe UI Emoji', 'Segoe UI Symbol', Symbola, EmojiSymbols;
+				font-size: 16px;
+			}
+			#wrapper{
+				position: relative;
+				width:720px;
+				min-height: 200px;
+				margin:40px auto;
+				padding: 20px 40px;
+				border-radius: 5px;
+				background-color: #FFF;
+			}
+				h1{
+					font-size: 28px;
+					font-weight: 300;
+					margin-top: 10px;
+					color:000;
+				}
+				p{
+					line-height: 140%;
+					margin:5px 0px;
+					color:#666;
+				}
+				.option{
+					padding:10px 0px 0px 0px;
+				}
+					input, .fake-input{
+						padding:7px 10px;
+						font-size: 15px;
+						border:none;
+						border-radius: 3px;
+						background-color: #ecf0f1;
+					}
+					.fake-input{
+						display: inline-block;
+						padding-right:0px;
+						color:#AAA;
+					}
+						.fake-input input{
+							padding:0px;
+							background-color: transparent;
+							color:#000;
+						}
+					input:focus{
+						outline: 0;
+					}
+				#save{
+					margin-top: 20px;
+					margin-left: 80px;
+					padding:8px 20px;
+					font-size: 16px;
+					border:none;
+					border-radius: 5px;
+					background-color: #D6E9ED;
+					color: #36696F;
+				}
+				#save:focus{
+					outline:0;
+					background-color: #BCD7DD;
+				}
+		</style>
+	</head>
+	<body>
+		<div id="wrapper">
+			<h1>New Tab Twitter Feed - Setup</h1>
+			<p>Specify an existing Twitter list to display.</p>
+			<p>Any public list works, it doesn't need to be one you created.</p>
+			<div class="option">Username: <div class="fake-input">@<input id="username" type="text" placeholder="soffes"></div></div>
+			<div class="option">List Name: <input id="list" type="text" placeholder="designers"></div>
+			<button id="save">Save</button>
+		</div>
+	</body>
+</html>
