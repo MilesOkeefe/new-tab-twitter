@@ -1,6 +1,6 @@
 function tload(){
 	twttr.events.bind('rendered',function(e){
-		var $iframe = $("#tw-link");
+		var $iframe = $("#twitter-widget-0");
 		function setHeight(){
 			var height = 0;
 			$iframe.contents().find('.stream').children().each(function(){ //calculate the height of .stream by adding the height of its childen since its own height doesn't change for some reason
